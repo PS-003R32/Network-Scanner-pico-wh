@@ -1,5 +1,5 @@
 # Scanning Networks using Raspberry Pi pico WH <br>
-The pico wh has 2 wi-fi modes: station mode (STA) and access point mode(AP). We will use the STA mode to scan for available networks<br>
+The pico wh has 2 wi-fi modes: station mode (STA) and access point mode(AP). We will use the STA mode to scan for available networks
 and display the signal strength in percentage (0-100) in the ssd1306 OLED module. You can buy the display of Amazon [Ds Robotics® 0.96 
 Inch OLED Module 12864 128x64 Driver IICI2C Serial Self-Luminous Display Board Compatible with Arduino Raspberry PI (1 Piece)](https://www.amazon.in/Ds-Robotics%C2%AE-Self-Luminous-Compatible-Raspberry/dp/B0BWNHXYN9) this one worked for me.<br>
 
