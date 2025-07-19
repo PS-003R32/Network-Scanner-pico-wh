@@ -10,7 +10,7 @@ this will return [60] or [0x3c]. if it returns empty [] then check the wiring an
 
 # Test OLED Display with a test script
 in thony create and run a new file and copy paste the below code, save it to the rpi /main.py.
-```
+```python
 from machine import Pin, I2C
 from ssd1306 import SSD1306_I2C
 i2c = I2C(0, scl=Pin(21), sda=Pin(20))
