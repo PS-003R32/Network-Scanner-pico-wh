@@ -5,7 +5,7 @@ Inch OLED Module 12864 128x64 Driver IICI2C Serial Self-Luminous Display Board C
 
 <img width="576" height="352" alt="image" src="https://github.com/user-attachments/assets/bc2eaeaf-67c3-4b0f-992b-5c9858795191" /><br>
 
-<img width="428" height="172" alt="image" src="https://github.com/user-attachments/assets/7fef6fa2-0326-442c-b223-8a20b9328154" />
+<img width="428" height="172" alt="image" src="https://github.com/user-attachments/assets/7fef6fa2-0326-442c-b223-8a20b9328154" /><br>
 
 <img width="433" height="382" alt="image" src="https://github.com/user-attachments/assets/70182122-3b86-4eed-8fda-9d9983074694" />
 
