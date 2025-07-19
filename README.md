@@ -7,7 +7,7 @@ Inch OLED Module 12864 128x64 Driver IICI2C Serial Self-Luminous Display Board C
 
 <img width="428" height="172" alt="image" src="https://github.com/user-attachments/assets/7fef6fa2-0326-442c-b223-8a20b9328154" /><br>
 
-<img width="433" height="382" alt="image" src="https://github.com/user-attachments/assets/70182122-3b86-4eed-8fda-9d9983074694" />
+<img width="303" height="267" alt="image" src="https://github.com/user-attachments/assets/70182122-3b86-4eed-8fda-9d9983074694" />
 
 
 # Setting up Thony<br>
@@ -20,7 +20,7 @@ If the raspberry pi pico wh doesnt show in the files window, go to Run > Configu
 <img width="450" height="358" alt="image" src="https://github.com/user-attachments/assets/b452facc-963f-446c-883f-a888c6158c39" /><br>
 
 
-install the necessary drivers for running the ssd1306 OLED module by going to Tools > Manage packages...<br>
+Install the necessary drivers for running the ssd1306 OLED module by going to Tools > Manage packages...<br>
 
 <img width="682" height="287" alt="image" src="https://github.com/user-attachments/assets/b732e73a-aac1-413e-904b-cd74a55820bc" /><br>
 
@@ -34,12 +34,12 @@ If you dont find any, use the drivers i have in this repository. Save the driver
 After setting up thony, the next stpe is to connect the OLED display to the pico. We will need 4 male  to male jumper wires and <br>
 a bread board. Connect the following using jumper wires:<br>
 
-|   Raspberry Pi Pico WH       |      SSD1306 OLED     |<br>
-|------------------------------|-----------------------|<br>
-|VBUS (Pin 40) or 3V3 (Pin 36) |     VCC               |<br>
-|GND (Pin 38)                  |     GND               |<br>
-|GP4 (Pin 26)                  |     SDA (data)        |<br>
-|GP5 (Pin 27)                  |     SCL (clock)       |<br>
+|---Raspberry Pi Pico WH-------|------SSD1306 OLED------|<br>
+|------------------------------|------------------------|<br>
+|VBUS (Pin 40) or 3V3 (Pin 36)-|----------VCC-----------|<br>
+|GND (Pin 38)------------------|----------GND-----------|<br>
+|GP4 (Pin 26)------------------|----------SDA (data)----|<br>
+|GP5 (Pin 27)------------------|----------SCL (clock)---|<br>
 
 # Theres a complete debug guide if your display is not working/turning on in a seperate section in this repository.<br>
 
