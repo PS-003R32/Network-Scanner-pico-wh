@@ -1,6 +1,6 @@
 # Scanning Networks using Raspberry Pi pico WH <br>
 The pico wh has 2 wi-fi modes: station mode (STA) and access point mode(AP). We will use the STA mode to scan for available networks
-and display the signal strength in percentage (0-100) in the ssd1306 OLED module. You can buy the display of Amazon [Ds Robotics® 0.96 
+and display the signal strength in percentage (0-100) in the ssd1306 OLED module. You can buy the display on Amazon [Ds Robotics® 0.96 
 Inch OLED Module 12864 128x64 Driver IICI2C Serial Self-Luminous Display Board Compatible with Arduino Raspberry PI (1 Piece)](https://www.amazon.in/Ds-Robotics%C2%AE-Self-Luminous-Compatible-Raspberry/dp/B0BWNHXYN9) this one worked for me.<br>
 
 <img width="576" height="352" alt="image" src="https://github.com/user-attachments/assets/bc2eaeaf-67c3-4b0f-992b-5c9858795191" /><br>
@@ -31,15 +31,15 @@ Search for ssd1306 and install.<br>
 If you dont find any, use the drivers i have in this repository. Save the drivers inside the lib/ directory by creating one.<br>
 
 # Circuit Diagram<br>
-After setting up thony, the next stpe is to connect the OLED display to the pico. We will need 4 male  to male jumper wires and <br>
+After setting up thony, the next stpe is to connect the OLED display to the pico. We will need 4 male  to male jumper wires and 
 a bread board. Connect the following using jumper wires:<br>
 
 |---Raspberry Pi Pico WH-------|------SSD1306 OLED------|<br>
-|------------------------------|------------------------|<br>
-|VBUS (Pin 40) or 3V3 (Pin 36)-|----------VCC-----------|<br>
-|GND (Pin 38)------------------|----------GND-----------|<br>
-|GP4 (Pin 26)------------------|----------SDA (data)----|<br>
-|GP5 (Pin 27)------------------|----------SCL (clock)---|<br>
+|----------------------------------|------------------------|<br>
+|VBUS (Pin 40) or 3V3 (Pin 36)--|----------VCC-----------|<br>
+|GND (Pin 38)--------------------|----------GND-----------|<br>
+|GP4 (Pin 26)---------------------|----------SDA (data)----|<br>
+|GP5 (Pin 27)---------------------|----------SCL (clock)---|<br>
 
 # Theres a complete debug guide if your display is not working/turning on in a seperate section in this repository.<br>
 
