@@ -1,11 +1,11 @@
-#  Scanning Networks with Raspberry Pi Pico WH
+#  Network SCanner using Raspberry Pi Pico WH
 
-Make a simple wifi scanner usinfg **Raspberry Pi Pico WH** and MicroPython to scan Wi-Fi networks in **station mode (STA)** and display signal strength on a sleek **SSD1306 OLED screen**.
-the raspberry pi pico wh has two wifi modes: station mode (**STA**) and access point(**AP**) mode. we will use the **STA** mode to detect and display available networks.
+The **Raspberry Pi Pico WH** has two wifi modes: station mode (**STA**) and access point(**AP**) mode. we will use the **STA** mode to detect and display available networks.
+Make a simple wifi scanner usinfg raspberry pi pico wh and MicroPython to scan Wi-Fi networks in **station mode (STA)** and display signal strength on a small **SSD1306 OLED screen**.
 
 ---
 
-##  What You'll Need
+##  Requirements
 
 - Raspberry Pi Pico WH  
 - SSD1306 OLED Module (Amazon link: [Ds Robotics® 0.96" OLED Display](https://www.amazon.in/Ds-Robotics%C2%AE-Self-Luminous-Compatible-Raspberry/dp/B0BWNHXYN9))  
@@ -14,8 +14,9 @@ the raspberry pi pico wh has two wifi modes: station mode (**STA**) and access p
 - MicroPython drivers (preloaded or installable)
 
 ---
+---
 
-##  Display Preview
+##  Display Outputs
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ec9098a7-39b5-4efd-b19a-5d50d4dd376e" alt="OLED Display Network Scan" width="500">
@@ -25,16 +26,18 @@ the raspberry pi pico wh has two wifi modes: station mode (**STA**) and access p
 
 ---
 
-##  Setting Up Thonny & Your Pico WH
+##  Setting Up Thonny & Pico WH
 
-1. **Connect the Pico WH:**
-   - Press and hold `BOOTSEL`, connect USB to PC, launch Thonny.
-2. **Configure the Interpreter:**
+1. **Connecting the Pico WH:**
+   - Press and hold `BOOTSEL` button on the board, connect USB to PC and launch `Thonny`.
+2. **Files window**
+   -If the files window is not there, go to `View` then click 'Files`.
+3. **Configure the Interpreter:**
    - Go to `Run > Configure Interpreter`.
-   - Select correct interpreter settings (see image below).
+   - Set the  interpreter settings (follow image below).
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c15315a2-2ef7-4850-8f18-93ff4b1437b2" alt="Thonny Config" width="280">
+  <img src="https://github.com/user-attachments/assets/c15315a2-2ef7-4850-8f18-93ff4b1437b2" alt="Thonny Config" width="260">
   <br><img src="https://github.com/user-attachments/assets/b452facc-963f-446c-883f-a888c6158c39" alt="Interpreter Setup" width="360">
 </p>
 
@@ -50,12 +53,12 @@ the raspberry pi pico wh has two wifi modes: station mode (**STA**) and access p
   <br><img src="https://github.com/user-attachments/assets/d721db7c-fb6d-4286-876f-e326fb5fda2f" alt="Search SSD1306" width="680">
 </p>
 
-> If unavailable, use the provided driver files in `/lib/` directory of this repository.
-> If the display is not working or turming on, there's a complete debug guide to solve or test the display insid Thonny.
+> If unavailable, use the drivers i have in the files in `/lib/` directory of this repository.
+> If the display is not working or turming on, there's a complete troubleshooting guide to solve or test the display insid Thonny.
 
 ---
 
-##  Circuit Diagram
+##  Circuit Pin Diagram
 
 Connect your OLED to the pico as follows:
 
@@ -66,14 +69,14 @@ Connect your OLED to the pico as follows:
 | GP4 (Pin 26)                 | SDA (Data Line)    |
 | GP5 (Pin 27)                 | SCL (Clock Line)   |
 
-> Full debug guide available in the dedicated **troubleshooting section** if your display doesn’t turn on.
+> I have uploaded a full debug guide in the **troubleshooting section** if your display is no t turning on.
 
 ---
 
-##  Coding the Network Scanner
+##  Coding
 
 - Script: `main.py` (available in this repo)  
-- Save to the pico as `/main.py`
+- Save it to the pico in `/main.py` directory.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/780e786d-83bd-4d1d-a5e5-e492451c37ef" alt="Running Script" width="560">
@@ -83,16 +86,10 @@ Run and verify using Thonny. If it prints `"MPY: soft reboot"`, everything is go
 
 ---
 
-##  Project Outcome
-
-- Scan and list available Wi-Fi networks  
-- Display signal strengths (0–100%)  
-- Run independently without PC after setup
-
----
-
-##  Directory Structure
- Network-Scanner-pico-wh/ ├── main.py └── lib/ └── ssd1306.py
+##  Directory
+-save in the foplloeing paths only:
+1. -pico/main.py
+2. -pico/lib/ssd1306.py
 
 
 ---
@@ -100,6 +97,6 @@ Run and verify using Thonny. If it prints `"MPY: soft reboot"`, everything is go
 ##  Collaboration
 
 Maintained by [PS-003R32](https://github.com/PS-003R32).  
-Feel free to open Issues or Pull Requests for suggestions or improvements! ;)
+You can open Issues or Pull Requests for suggestions or improvements! ;)
 
 ---
