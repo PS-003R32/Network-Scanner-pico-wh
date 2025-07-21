@@ -5,7 +5,7 @@ Make a simple wifi scanner usinfg raspberry pi pico wh and MicroPython to scan W
 
 ---
 
-##  Requirements
+##  Things you need
 
 - Raspberry Pi Pico WH  
 - SSD1306 OLED Module (Amazon link: [Ds Robotics® 0.96" OLED Display](https://www.amazon.in/Ds-Robotics%C2%AE-Self-Luminous-Compatible-Raspberry/dp/B0BWNHXYN9))  
@@ -30,7 +30,7 @@ Make a simple wifi scanner usinfg raspberry pi pico wh and MicroPython to scan W
 
 1. **Connecting the Pico WH:**
    - Press and hold `BOOTSEL` button on the board, connect USB to PC and launch `Thonny`.
-2. **Files window**
+2. **Files window:**
    -If the files window is not there, go to `View` then click 'Files`.
 3. **Configure the Interpreter:**
    - Go to `Run > Configure Interpreter`.
@@ -69,7 +69,7 @@ Connect your OLED to the pico as follows:
 | GP4 (Pin 26)                 | SDA (Data Line)    |
 | GP5 (Pin 27)                 | SCL (Clock Line)   |
 
-> I have uploaded a full debug guide in the **troubleshooting section** if your display is no t turning on.
+> I have uploaded a full debug guide in the **troubleshooting section** if your display is not turning on.
 
 ---
 
@@ -87,9 +87,9 @@ Run and verify using Thonny. If it prints `"MPY: soft reboot"`, everything is go
 ---
 
 ##  Directory
--save in the foplloeing paths only:
-1. -pico/main.py
-2. -pico/lib/ssd1306.py
+-save in the following paths only:
+1. -Raspberry Pi Pico/main.py
+2. -Raspberry Pi Pico/lib/ssd1306.py
 
 
 ---
