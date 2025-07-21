@@ -1,6 +1,7 @@
 # 📶 Scanning Networks with Raspberry Pi Pico WH
 
-Harness the power of **Raspberry Pi Pico WH** and MicroPython to scan Wi-Fi networks in **station mode (STA)** and display signal strength on a sleek **SSD1306 OLED screen**.
+Make a simple wifi scanner usinfg **Raspberry Pi Pico WH** and MicroPython to scan Wi-Fi networks in **station mode (STA)** and display signal strength on a sleek **SSD1306 OLED screen**.
+the raspberry pi pico wh has two wifi modes: station mode (**STA**) and access point(**AP**) mode. we will use the **STA** mode to detect and display available networks.
 
 ---
 
@@ -50,12 +51,13 @@ Harness the power of **Raspberry Pi Pico WH** and MicroPython to scan Wi-Fi netw
 </p>
 
 > If unavailable, use the provided driver files in `/lib/` directory of this repository.
+> If the display is not working or turming on, there's a complete debug guide to solve or test the display insid Thonny.
 
 ---
 
 ## 🔌 Circuit Diagram
 
-Connect your OLED as follows:
+Connect your OLED to the pico as follows:
 
 | Raspberry Pi Pico WH         | SSD1306 OLED       |
 |------------------------------|--------------------|
@@ -71,13 +73,13 @@ Connect your OLED as follows:
 ## 💡 Coding the Network Scanner
 
 - Script: `main.py` (available in this repo)  
-- Save to your device as `/main.py`
+- Save to the pico as `/main.py`
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/780e786d-83bd-4d1d-a5e5-e492451c37ef" alt="Running Script" width="560">
 </p>
 
-Run and verify using Thonny. If it prints `"MPY: soft reboot"`, everything is good to go! Disconnect and power the board externally.
+Run and verify using Thonny. If it prints `"MPY: soft reboot"`, everything is good to go! Disconnect and power the board externally. (It should run automatically.)
 
 ---
 
@@ -98,7 +100,7 @@ Run and verify using Thonny. If it prints `"MPY: soft reboot"`, everything is go
 ## 📬 Feedback & Collaboration
 
 Maintained by [PS-003R32](https://github.com/PS-003R32).  
-Feel free to open Issues or Pull Requests for suggestions or improvements!
+Feel free to open Issues or Pull Requests for suggestions or improvements! ;)
 
 ---
 
