@@ -47,7 +47,7 @@ the raspberry pi pico wh has two wifi modes: station mode (**STA**) and access p
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b732e73a-aac1-413e-904b-cd74a55820bc" alt="Package Manager" width="680">
-  <br><img src="https://github.com/user-attachments/assets/d721db7c-fb6d-4286-876f-e326fb5fda2f" alt="Search SSD1306" width="830">
+  <br><img src="https://github.com/user-attachments/assets/d721db7c-fb6d-4286-876f-e326fb5fda2f" alt="Search SSD1306" width="680">
 </p>
 
 > If unavailable, use the provided driver files in `/lib/` directory of this repository.
