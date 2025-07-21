@@ -1,4 +1,4 @@
-#  Network SCanner using Raspberry Pi Pico WH
+#  Network scanner using Raspberry Pi Pico WH
 
 The **Raspberry Pi Pico WH** has two wifi modes: station mode (**STA**) and access point(**AP**) mode. we will use the **STA** mode to detect and display available networks.
 Make a simple wifi scanner usinfg raspberry pi pico wh and MicroPython to scan Wi-Fi networks in **station mode (STA)** and display signal strength on a small **SSD1306 OLED screen**.
