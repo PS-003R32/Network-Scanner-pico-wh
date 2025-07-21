@@ -9,6 +9,8 @@ After running `main_v3.py`, the Raspberry Pi Pico WH will scan Wi-Fi networks an
 <p align="center">
   <img src="https://github.com/user-attachments/assets/60a652cb-c669-4f31-bbd6-415b1d41bad0" width="640" alt="OLED Display showing Wi-Fi Scan Results">
 </p>
+
+
 ### 🎥 Demo Video
 
 <p align="center">
@@ -17,7 +19,6 @@ After running `main_v3.py`, the Raspberry Pi Pico WH will scan Wi-Fi networks an
     <br>🔗 Click to watch the demo video...;)
   </a>
 </p>
-
 
 
 ### 📐 Display Details:
