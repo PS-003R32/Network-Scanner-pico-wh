@@ -18,7 +18,9 @@ the raspberry pi pico wh has two wifi modes: station mode (**STA**) and access p
 ## 🖥️ Display Preview
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bc2eaeaf-67c3-4b0f-992b-5c9858795191" alt="OLED Display Network Scan" width="500">
+    <img width="336" height="290" alt="image" src="https://github.com/user-attachments/assets/ec9098a7-39b5-4efd-b19a-5d50d4dd376e" />
+
+  <img src="https://github.com/user-attachments/assets/ec9098a7-39b5-4efd-b19a-5d50d4dd376e" alt="OLED Display Network Scan" width="500">
   <br><img src="https://github.com/user-attachments/assets/7fef6fa2-0326-442c-b223-8a20b9328154" alt="Signal Strength" width="400">
   <br><img src="https://github.com/user-attachments/assets/70182122-3b86-4eed-8fda-9d9983074694" alt="OLED Scan Result" width="300">
 </p>
