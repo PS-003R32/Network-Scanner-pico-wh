@@ -31,7 +31,7 @@ Make a simple wifi scanner usinfg raspberry pi pico wh and MicroPython to scan W
 1. **Connecting the Pico WH:**
    - Press and hold `BOOTSEL` button on the board, connect USB to PC and launch `Thonny`.
 2. **Files window:**
-   -If the files window is not there, go to `View` then click 'Files`.
+   - If the files window is not there, go to `View` then click 'Files`.
 3. **Configure the Interpreter:**
    - Go to `Run > Configure Interpreter`.
    - Set the  interpreter settings (follow image below).
