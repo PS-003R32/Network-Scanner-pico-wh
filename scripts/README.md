@@ -1,4 +1,6 @@
 Rename the script to main.py and save it to the rpi at /main.py
+You can modify the code to display your own customized output on the oled.
+Open to improvements and collaboration.
 
 ## 🖥️ OLED Display Visualization
 
@@ -24,6 +26,6 @@ After running `main_v3.py`, the Raspberry Pi Pico WH will scan Wi-Fi networks an
 
 ### 📐 Display Details:
 - Shows up to **4 active networks**
-- SSID truncated to **first 10 characters**
+- SSID truncated to **first 10 characters** (you can change this if your display is larger.)
 - Signal strength estimated from **RSSI**
 - Refreshed every **2 seconds** for updated visibility (you can change this for a different refresh time)
