@@ -1,11 +1,11 @@
-# 📶 Scanning Networks with Raspberry Pi Pico WH
+#  Scanning Networks with Raspberry Pi Pico WH
 
 Make a simple wifi scanner usinfg **Raspberry Pi Pico WH** and MicroPython to scan Wi-Fi networks in **station mode (STA)** and display signal strength on a sleek **SSD1306 OLED screen**.
 the raspberry pi pico wh has two wifi modes: station mode (**STA**) and access point(**AP**) mode. we will use the **STA** mode to detect and display available networks.
 
 ---
 
-## 🔧 What You'll Need
+##  What You'll Need
 
 - Raspberry Pi Pico WH  
 - SSD1306 OLED Module (Amazon link: [Ds Robotics® 0.96" OLED Display](https://www.amazon.in/Ds-Robotics%C2%AE-Self-Luminous-Compatible-Raspberry/dp/B0BWNHXYN9))  
@@ -15,7 +15,7 @@ the raspberry pi pico wh has two wifi modes: station mode (**STA**) and access p
 
 ---
 
-## 🖥️ Display Preview
+##  Display Preview
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ec9098a7-39b5-4efd-b19a-5d50d4dd376e" alt="OLED Display Network Scan" width="500">
@@ -25,7 +25,7 @@ the raspberry pi pico wh has two wifi modes: station mode (**STA**) and access p
 
 ---
 
-## 🛠️ Setting Up Thonny & Your Pico WH
+##  Setting Up Thonny & Your Pico WH
 
 1. **Connect the Pico WH:**
    - Press and hold `BOOTSEL`, connect USB to PC, launch Thonny.
@@ -40,7 +40,7 @@ the raspberry pi pico wh has two wifi modes: station mode (**STA**) and access p
 
 ---
 
-## 📦 Installing SSD1306 Drivers
+##  Installing SSD1306 Drivers
 
 - Open Thonny, go to `Tools > Manage packages...`  
 - Search and install `ssd1306` module.
@@ -55,7 +55,7 @@ the raspberry pi pico wh has two wifi modes: station mode (**STA**) and access p
 
 ---
 
-## 🔌 Circuit Diagram
+##  Circuit Diagram
 
 Connect your OLED to the pico as follows:
 
@@ -70,7 +70,7 @@ Connect your OLED to the pico as follows:
 
 ---
 
-## 💡 Coding the Network Scanner
+##  Coding the Network Scanner
 
 - Script: `main.py` (available in this repo)  
 - Save to the pico as `/main.py`
@@ -83,7 +83,7 @@ Run and verify using Thonny. If it prints `"MPY: soft reboot"`, everything is go
 
 ---
 
-## ✅ Project Outcome
+##  Project Outcome
 
 - Scan and list available Wi-Fi networks  
 - Display signal strengths (0–100%)  
@@ -91,21 +91,15 @@ Run and verify using Thonny. If it prints `"MPY: soft reboot"`, everything is go
 
 ---
 
-## 📂 Directory Structure
-📁 Network-Scanner-pico-wh/ ├── main.py └── lib/ └── ssd1306.py
+##  Directory Structure
+ Network-Scanner-pico-wh/ ├── main.py └── lib/ └── ssd1306.py
 
 
 ---
 
-## 📬 Feedback & Collaboration
+##  Collaboration
 
 Maintained by [PS-003R32](https://github.com/PS-003R32).  
 Feel free to open Issues or Pull Requests for suggestions or improvements! ;)
 
 ---
-
-## 🧾 License
-
-MIT – Use it freely. Share, remix, and build your own versions.
-
-
