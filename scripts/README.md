@@ -4,18 +4,20 @@ Rename the script to main.py and save it to the rpi at /main.py
 
 After running `main_v3.py`, the Raspberry Pi Pico WH will scan Wi-Fi networks and display real-time signal strength (updated every 2 seconds) on an SSD1306 OLED screen.
 
-### 📷 OLED Output Overview
+### 📷 Example Photos:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/60a652cb-c669-4f31-bbd6-415b1d41bad0" width="640" alt="OLED Display showing Wi-Fi Scan Results">
+  <img src="https://github.com/user-attachments/assets/bc2eaeaf-67c3-4b0f-992b-5c9858795191" width="336" height="290" alt="Wi-Fi Scan Result">
+  <br><img src="https://github.com/user-attachments/assets/70182122-3b86-4eed-8fda-9d9983074694" width="336" height="290" alt="Signal Strength OLED">
 </p>
+
 
 
 ### 🎥 Demo Video
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=ZatuagblglM" target="_blank">
-    <img src="https://github.com/user-attachments/assets/60a652cb-c669-4f31-bbd6-415b1d41bad0" width="640" alt="Watch demo video">
+    <img src="https://github.com/user-attachments/assets/60a652cb-c669-4f31-bbd6-415b1d41bad0" width="336" height="290" alt="Watch demo video">
     <br>🔗 Click to watch the demo video...;)
   </a>
 </p>
